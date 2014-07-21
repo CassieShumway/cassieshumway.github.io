@@ -1,0 +1,161 @@
+body {
+	background: white; 
+	color: #6A7574; 
+	font-size: 112%; /*allows font elemets to take their sizes from the body*/
+	font-family: 'Rosario', sans-serif;
+	font-weight: 300;
+	line-height: 2em;
+	margin: 0; 
+	padding: 0; 
+}
+
+h1, h2, h3, h4, p { margin: 0;}
+
+a {
+	color: #6A7574;
+	text-decoration: none;
+}
+
+a:hover { color: #FF7865; }
+
+h1 {
+	font-size: 1.8em;
+	text-align: center;
+	margin: 1em 0 2em 0;
+}
+
+h2 {
+	background: #D0ECEA;
+	color: #FF3D7F;
+	display: inline-block;
+	font-weight: normal;
+	margin: 5%;
+	padding: 1em;
+	text-align: center;
+	width: 14%;
+}
+
+h3 { 
+	margin: 1.2em 0 .5em 0; }
+
+.divider-short {
+  border: 0;
+  border-top: 1px solid #ddd;
+  height: 0;
+  margin: 2em auto;
+  width: 100px;
+}
+
+span { color: #FF3D7F; }
+
+p { font-size: 1.2em; }
+
+.text-example { font-size: 1em; }
+
+ul { text-align: center; }
+
+li {
+	background: #EEEEDD;
+	display: inline;
+	list-style: none;
+	margin: .5em;
+	padding: 1em;
+}
+
+/* =================================
+   CONTAINER
+   ============================== */
+
+.container {
+	margin: 0 auto;
+	padding: 2em 0;
+	width: 90%;
+	max-width: 670px;
+}
+
+/* =================================
+   BOXES USED FOR EXAMPLES
+   ============================== */
+
+.box {
+	border: 1px dashed #E9E9E9; 
+	margin: 1em 0;
+	padding: 1em;
+}
+
+/* =================================
+   INLINE
+   ============================== */
+
+.inline-block {
+	background: #D0ECEA;
+	color: #FF3D7F;
+	display: block;
+	text-align: center;
+}
+
+/* =================================
+   BLOCKLEVEL
+   ============================== */
+
+.block {
+	background: #D0ECEA;
+	padding: 1em;
+	text-align: center;
+}
+
+/* =================================
+   GIST OVERRIDES
+   ============================== */
+
+.gist .gist-file {
+  font-size: .9rem !important;
+  margin: 0 auto;
+  max-width: 750px;
+  overflow: hidden !important;
+  text-align: left;
+}
+
+.gist .gist-file .gist-data {
+  background: #f8f8f8 !important;
+  border-bottom: none !important;
+}
+
+.gist .gist-file .gist-meta {
+  display: none !important;
+}
+
+.gist-syntax .k {
+  color: #555 !important;
+  font-weight: normal !important;
+}
+
+/* =================================
+   CODE
+   ============================== */
+
+code {
+	background: #F3F3F2;
+	-moz-border-radius: 15px;
+	border-radius: 5px;
+	border: 1px solid #DDD7D7; 
+	font-size: 16px;
+	padding: 0.2em 0.7em;
+	position: relative;
+	top: -1px;
+}
+
+/* =================================
+   CLEAR FIX
+   ============================== */
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after { clear: both; }
+
+.cf { *zoom: 1; }
+

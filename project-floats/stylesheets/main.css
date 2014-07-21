@@ -1,0 +1,183 @@
+* {
+  -moz-box-sizing: border-box;                                                        
+  -webkit-box-sizing: border-box;                                                    
+  box-sizing: border-box;
+}
+
+body {
+	background: #fff; 
+	color: #6A7574; 
+	font-size: 112%; 
+	font-family: 'Droid Serif', 'serif';
+	font-weight: 300;
+	line-height: 2em;
+	margin: 0; 
+	padding: 0; 
+}
+
+a {
+	color: #6A7574; 
+	text-decoration: none;
+}
+
+a:hover { color: #EDBCBC; }
+
+h1 {
+	color: #BD628E;
+  	font-size: 2.5em;
+	font-weight: 400;
+	line-height: 1em;
+	text-align: center;
+}
+
+h2 {
+	color: #ED9F9F;
+	font-size: 1.5em;
+	font-weight: 400;
+	margin-top: 3em;
+}
+
+p {
+	font-size: 1.1em;
+	margin-bottom: 1em;
+}
+
+.text-example { font-size: 1em; }
+
+/* =================================
+  WRAPPER
+   ============================== */
+
+#wrapper {
+	background: #ecede8;
+	margin: 0 auto;
+	padding: 2em 1em;
+	width: 90%;
+	max-width: 900px;
+}
+
+/* =================================
+  CONTAINER
+   ============================== */
+
+.container {
+	margin: 0 auto;
+	max-width: 670px;
+}
+
+/* =================================
+  BOX
+   ============================== */
+
+.box {
+	background: #fff;
+	border: 1px solid #E9E9E9; 
+	margin: 2em auto;
+	padding: 1em;
+	width: 100%;
+}
+
+/* =================================
+  RECTANGLES
+   ============================== */
+
+.rectangle {
+	background: url(squaredmetal.png);
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	color: #BD628E;
+	float: left;
+	height: auto;
+	line-height: 1em;
+	list-style: none;
+	margin-right: 1.4em;
+	padding: 1em;
+	text-align: center;
+	width: 20%;
+}
+
+.rectangle:first-child { margin-left: 0; }
+
+.rectangle:hover {
+	background: url(greencup.png);
+	color: #E4E3DC;
+}
+/* =================================
+  EXAMPLES
+   ============================== */
+
+.example {
+	background: url(squaredmetal.png);
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	color: #BD628E;
+	height: auto;
+	line-height: 1em;
+	list-style: none;
+	margin: .7em;
+	padding: 1em;
+	text-align: center;
+	/*not setting widths will give you more flexibility. 
+	The padding will take care of it if the widths vary.*/
+}
+
+.left { float: left; }
+
+.right { float: right; }
+
+.margin-example { 
+	float: left; 
+	margin-left: -60px; 
+}
+
+.collapse-box {
+	background: #fff;
+	border: 1px solid #E9E9E9; 
+	margin: 2em auto;
+	width: 100%;
+}
+
+.collapse-example { display: inline-block; }
+
+/* =================================
+  GIST OVERRIDES
+   ============================== */
+
+.gist .gist-file {
+  font-size: .9rem !important;
+  margin: 0 auto;
+  max-width: 750px;
+  overflow: hidden !important;
+  text-align: left;
+}
+
+.gist .gist-file .gist-data {
+  background: #f8f8f8 !important;
+  border-bottom: none !important;
+}
+
+.gist .gist-file .gist-meta {
+  display: none !important;
+}
+
+.gist-syntax .k {
+  color: #555 !important;
+  font-weight: normal !important;
+}
+
+/* =================================
+  CLEAR FIX
+   ============================== */
+
+.cf:before,
+.cf:after {
+    content: " "; 
+    display: table;
+}
+
+.cf:after { clear: both; }
+
+.cf { *zoom: 1; }
+
+
+

@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Cassie Shumway - Git Reminders</title>
+
+    <link href="/stylesheets/normalize.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/main.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/responsive.css" media="screen" rel="stylesheet" type="text/css" />
+    <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" />
+    
+    <link href='http://fonts.googleapis.com/css?family=Roboto:700,300,300italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Cinzel:400, 900' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Fugaz+One' rel='stylesheet' type='text/css'>
+
+    <script type="text/javascript" src="//use.typekit.net/jep8mdb.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  </head>
+  <body>
+    <div id="header">
+      <ul class="nav">          
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/blog.html">Blog</a></li>
+        <li><a href="/projects.html">Projects</a></li>
+        <li><a href="/about.html">About</a></li>
+      </ul>
+      <hr>
+    </div>
+    <div id="container">
+        <article>
+
+<h1>Git Reminders</h1>
+
+<p>In the beginning of the apprenticeship, we wanted to instill good practices. For example, the importance of indenting a line and properly nesting. In this instance, there are a few more practices we should always keep in mind in terms of our Github processes!</p> 
+
+<hr class="divider-short" />
+
+<h3>.gitignore</h3>
+
+<p>There are many files that might show up in your repository. But there are some files that you don't want to show....so we want to make sure that we properly hide them! Adding and using the gitignore will help us keep junk files out of our pretty repository.</p>
+
+<p>Simply add the following to your .gitignore:</p>
+
+<script src="https://gist.github.com/CassieShumway/d610ee3d70029286086a.js"></script>
+
+<hr class="divider-short" />
+
+<h3>Making/Editing your .gitignore</h3>
+
+<p>If you already have some files in your repository that you need getting rid of, follow these steps:</p>
+
+<ol>
+	<li>touch .gitignore</li>
+	<li>add the code above into your .gitignore file</li>
+	<li>rm .DS_Store (and/or any other junk files)</li>
+	<li>push your files back up to github for completed edits</li>
+</ol>
+
+<hr class="divider-short" />
+
+<h3>Make A Repository for each project</h3>
+
+<p>It's been a while since I've worked in Github since Middleman makes it all too easy. So making a new repository was good review. In order to create a new repository for each project page, this is what I did:</p>
+
+<ol>
+	<li>Navigate through your terminal</li>
+	<li>Go to the folder you wish to create a new repository for</li>
+	<li>Type git init</li>
+	<li>Add all your files</li>
+	<li>git commit -m "type message here"</li>
+	<li>git remote add origin git@github.com:CassieShumway/test.git</li>
+	<li>git push -u origin master</li>
+</ol>
+
+<p>Now you've just made a new repository from your existing folder. Easy!</p>
+
+<p>I'm sure I'll come across many more Git practices that are essential to good practices, but for now, this is a good start when creating new projects!</p>
+
+</article>
+
+
+    </div>
+  </body>
+</html>
