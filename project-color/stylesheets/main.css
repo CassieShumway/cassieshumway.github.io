@@ -5,15 +5,15 @@
 }
 
 body {
-	background: #fff; 
-	color: #8c044d;
-	font-size: 112%; 
+  background: #fff; 
+  color: #8c044d;
+  font-size: 112%; 
   font-family: "ff-tisa-web-pro",serif;
   -webkit-font-smoothing: antialiased;
-	font-weight: 300;
-	line-height: 2em;
-	margin: 0; 
-	padding: 0; 
+  font-weight: 300;
+  line-height: 2em;
+  margin: 0; 
+  padding: 0; 
 }
 
 a { color: #8c044d; }
@@ -35,7 +35,7 @@ blockquote {
   margin-bottom: .5em;
 }
 
-h1, h2, h3, h4, p { 
+h1, h2, h3, h4 { 
   font-family: "omnes-pro",sans-serif;
   margin: 0; 
   text-transform: uppercase;
