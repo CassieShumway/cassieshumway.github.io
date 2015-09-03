@@ -315,4 +315,26 @@ li {
 .cf { *zoom: 1; }
 
 
+/* =================================
+  MEDIA QUERIES
+   ============================== */
+@media(max-width: 480px) {
+  section {
+    padding: 1em 0;  
+  }
+  .column {
+    margin-left: 0;
+  }
+  .half {
+    height: auto;
+    margin-left: 0;
+    width: 100%;
+  }
+  .quote-question {
+    font-size: 1.1em;
+  }
+  .margin-bottom {
+    margin-bottom: 1.1em;
+  }
+}
 
