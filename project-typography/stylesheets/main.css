@@ -456,6 +456,7 @@ hr {
 	}
 	.yellow p {
 		font-size: 1.4em;
+		text-align: center;
 	}
 	.yellow .circle {
 		margin: 0 auto;
@@ -467,6 +468,7 @@ hr {
 		margin-left: -125px;
 	}
 	.white-kepler .transform-of {
+		font-size: .8em;
 		margin-top: -29px;
 	}
 	.white-kepler .transform-moods {
