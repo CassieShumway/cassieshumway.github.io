@@ -464,7 +464,7 @@ hr {
 		margin: .5em 0;
 	}
 	.white-kepler .tranform-magic {
-		125px;
+		margin-left: -125px;
 	}
 	.white-kepler .transform-of {
 		margin-top: -29px;
